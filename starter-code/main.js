@@ -45,7 +45,7 @@ function printMenu() {
 `);
 }
 
-...
+
 mongoClient.connect(url, (error, db) => {
   if (error) {
     console.log('Error trying to connect to the Database');
@@ -88,6 +88,4 @@ mongoClient.connect(url, (error, db) => {
   }
 });
 
-function printMenu() {
-  ...
-}
+function printMenu() {}
